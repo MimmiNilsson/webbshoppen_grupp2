@@ -1,18 +1,42 @@
-<form id="input">
-    <div class="input-container">
-        <label for="text">Product Name:</label>
-        <input autofocus type="text" id="text">
-    </div>
-    <div class="input-container">
-        <label for="text">Description:</label>
-        <input type="text" id="text">
-    </div>
-    <div class="input-container">
-        <label for="amount">Price:</label>
-        <input type="number" id="amount">
-        <button class="btn">Add Product</button>
-    </div>
-</form>
-    <h3>Products to be added:</h3>
-        <ul id="list" class="list">
-        </ul>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <a href="index.html" id="navbar-logo"><img src="./assets/logo.jpeg" alt="logo"></a>
+                <ul class="navbar-menu">
+                    <li class="navbar-item"><a href="bouquets.html" class="navbar-links" id="">Bouquets</a></li>
+                    <li class="navbar-item"><a href="admin.html" class="navbar-links" id="admin">Admin</a></li>
+                    <li class="navbar-item"><a href="subscribe.html" class="navbar-links" id="subscribe">Subscribe</a></li>
+                    <li class="navbar-item"><a href="#contact" class="navbar-links" id="contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <form id="input">
+        <div class="input-container">
+            <label for="text">Product Name:</label>
+            <input autofocus type="text" id="text">
+        </div>
+        <div class="input-container">
+            <label for="text">Description:</label>
+            <input type="text" id="text">
+        </div>
+        <div class="input-container">
+            <label for="amount">Price:</label>
+            <input type="number" id="amount">
+            <button class="btn">Add Product</button>
+        </div>
+    </form>
+        <h3>Products to be added:</h3>
+            <ul id="list" class="list">
+            </ul>
+</body>
+</html>
