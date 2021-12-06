@@ -1,0 +1,63 @@
+.navbar {
+    background-color: #f3f3f3;
+    height: 82px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar-container {
+    height: 80px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.navbar-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navbar-item {
+    padding: 5px;
+}
+
+.navbar-item a:hover {
+    background-color: black;
+    color: white;
+}
+
+.navbar-item a:active {
+    background-color: yellow;
+    color: black;
+}
+
+.navbar-links {
+    height: 100%;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar-logo {
+    font-family: "Abril Fatface";
+    text-shadow: 2px 2px yellow;
+    color: black;
+    font-size: 2rem;
+    padding: 5px 7.5px 5px 0;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
