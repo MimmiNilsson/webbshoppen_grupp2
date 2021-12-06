@@ -1,0 +1,40 @@
+*{
+    border: 1px black solid;
+}
+body {
+    background: linear-gradient(red,white) no-repeat;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+}
+.mainContainer{
+    text-align: center;
+}
+.mainDiv {
+    margin-top: 0%;
+}
+#minus , #plus{
+    height: 30px;
+    width: 30px;
+    border: 1px black solid;
+    border-radius: 20%;
+}
+#minus:hover{
+    background-color:red;    
+}
+#plus:hover{
+    background-color:green;
+}
+#numberPlace {
+    margin-left:5px;
+    margin-right:5px;
+}
+#submit {
+    border:none;
+    height:25px;
+}
+#submit:hover{
+    background-color: black;
+    color: white;
+}
