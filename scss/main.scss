@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -14,7 +16,7 @@ body {
     /* min-height: 100vh;  */
     height: 100vh;
     font-size: 1rem;
-} 
+}
 
 @import "./scss/navbar.scss";
 @import "./scss/firstadmin.scss";
