@@ -1,4 +1,4 @@
-/*===== FIRST ADMIN / LOGIN ===== */
+/*===== ADMIN / LOGIN ===== */
 
 function validateAdmin(e) {
     e.preventDefault();
@@ -6,7 +6,7 @@ function validateAdmin(e) {
     var password = document.querySelector('#password').value;
 
     if(username == "admin" && password == "admin"){
-        window.location.href = "./newadmin.html";
+        window.location.href = "../html/admin_main.html";
     } else {
         alert("Login unsuccessful, please try again.")
     }
@@ -14,4 +14,4 @@ function validateAdmin(e) {
 
 document.querySelector(".login-btn").addEventListener("click", validateAdmin);
 
-/*===== SECOND ADMIN / PRODUCT CONTROL ===== */
+/*===== ADMIN / MAIN ===== */
