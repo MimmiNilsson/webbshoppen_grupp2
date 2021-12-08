@@ -1,14 +1,16 @@
 .container-product{
-  padding-left: 10%;
-  padding-right: 10%;
   display: flex;
-  justify-content: space-between;
-  padding-top: 5%;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin:0 20%;
 }
 .card {
+  position: relative;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
-  margin: auto;
+  margin-top: 5%;
+  margin-right: 40px;
+  margin-left: 40px;
   text-align: center;
   font-family: arial;
 }
