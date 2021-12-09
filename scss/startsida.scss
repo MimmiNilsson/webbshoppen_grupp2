@@ -142,25 +142,6 @@ section .ett{
   }
 
 
-/* 
-  .bi-snow2{
-    position: absolute; 
-    animation: fall 15s linear forwards; 
-    top: 0px; 
-     z-index: 11;
-  }
-
-  @keyframes fall{
-       to {transform: translateY(310vh);} 
-  } */
-
-
-  /* .container{
-      height: 100vh;
-      width: 100%;
-      background-color: white;
-  } */
-
   .obj{
     position: absolute;
     left :0px;
@@ -171,6 +152,4 @@ section .ett{
     font-weight:normal; 
     font-family:Verdana; 
   }
-
-
 

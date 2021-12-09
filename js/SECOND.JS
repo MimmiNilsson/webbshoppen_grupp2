@@ -1,4 +1,4 @@
-const left = []; //skapar listor för varje riktining
+/* const left = []; //skapar listor för varje riktining
 const up = [];
 const right = [];
 const down = [];
@@ -52,4 +52,4 @@ hejhej.map((product => {
 
     console.log(product)
     document.querySelector("div").innerHTML += "<div>" + product.name + "</div>" product.name
-}))
+})) */
