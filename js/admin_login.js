@@ -3,7 +3,7 @@
 
 
 /*===== ADMIN / LOGIN ===== */
-
+/*===== ADMIN / LOGIN ===== */
 function validateAdmin(e) {
     e.preventDefault();
     var username = document.querySelector('#username').value;
@@ -17,6 +17,4 @@ function validateAdmin(e) {
 }
 
 document.querySelector(".login-btn").addEventListener("click", validateAdmin);
-
-/*===== ADMIN / MAIN ===== */
 

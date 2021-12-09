@@ -1,8 +1,4 @@
-console.log("hej mogge här");
-console.log("Mimmi är också här ;)");
-console.log("johanna är också här juuuu!!!")
-console.log("Hej Johanna, Mimmi här!")
-
+/*===== ADMIN / NAVBAR ===== */
 const toggleButton = document.getElementsByClassName('toggle-button')[0];
 
 console.log(toggleButton);
