@@ -7,7 +7,7 @@
         <title>Admin</title>
         <link rel="stylesheet" href="../css/main.css">
         <link rel="stylesheet" href="/fontawesome-free-5.15.4-web/css/all.min.css">
-        <script src="../js/main.js" defer></script>
+        <script src="../js/admin_main.js" defer></script>
     </head>
 <body>
     <header>
@@ -21,8 +21,7 @@
             <div class="navbar-links">
               <ul>
                 <li><a href="./index.html">Home</a></li>
-                <li><a href="./bouquets.html">Our Bouquets</a></li>
-                <li><a href="./vases_pots.html">Vases & Pots</a></li>
+                <li><a href="./product.html">Our Products</a></li>
                 <li><a href="./presents.html">Presents</a></li>
                 <li><a href="./admin_login.html"><i class="fas fa-user-cog"></i></a></li>
                 <li><a href="./favorited.html"><i class="fas fa-heart"></i></a></li>
@@ -31,6 +30,19 @@
             </div>
           </nav>
     </header> 
-    
+    <h4>Product Overview</h4>
+      <!-- Product text -->
+      <form action="">
+        <div class="add-form">
+            <input type="text" class="prod-input" id="prod-name" maxlength="50" placeholder="Product name...">
+            <input type="text" class="prod-input" id="short-desc" maxlength="150" placeholder="Short product description...">
+            <textarea name="" class="prod-input" id="desc" placeholder="Add product description..." cols="50" rows="10"></textarea>
+        </div>
+        <div class="prod-price">
+            <input type="number" id="selling-price" placeholder="Selling price...">
+        </div>
+        <button class="prod-btn" id="add-btn">Add Product</button>
+      </form>
+
 </body>
 </html>

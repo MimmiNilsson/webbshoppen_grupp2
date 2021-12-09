@@ -1,4 +1,18 @@
-/*===== NAVBAR w/ MEDIA QUERY =====*/ 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+/*ADMIN UNIVERSAL SECTION*/ 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh; 
+    background-color: #f2f2f0;
+}
+
 .navbar {
     background-color: #7b876d;
     color: white;
@@ -86,3 +100,9 @@
         display: flex;
     }
 }
+
+
+
+
+
+
