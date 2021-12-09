@@ -1,17 +1,15 @@
 /*===== ADMIN LOGIN SECTION =====*/ 
 .login-container {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
    width: 65vh;
    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
    background-color: #fff;
    border-radius: 5px;
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      align-items: center;
-      /* min-height: 100vh;  */
-      height: 100vh;
-      font-size: 1rem;
-      margin: auto;
+   height: 100vh;
+   margin: auto;
 }
 
 .login-group {
