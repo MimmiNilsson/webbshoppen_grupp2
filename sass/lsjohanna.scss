@@ -1,0 +1,168 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.slider {
+    width: 500px;
+    height: 300px;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .image-container {
+    width: 1500px;
+    height: 300px;
+    clear: both;
+    position: relative;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+  }
+
+  .slide {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+  }
+
+  #slide-1:target ~ .image-container {
+    left: 0px;
+  }
+
+  #slide-2:target ~ .image-container {
+    left: -500px;
+  }
+
+  #slide-3:target ~ .image-container {
+    left: -1000px;
+  }
+
+  .buttons {
+    position: relative;
+    top: -20px;
+  }
+
+  .buttons a {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: white;
+  }
+ 
+
+
+
+
+ CARD
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .card button:hover {
+    opacity: 0.7;
+  }  
+
+
+
+
+
+ FOOTER
+body{
+    background-color: white;}
+
+footer{
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    }
+        
+h1{
+    font-size: x-large;
+}
+h1 .rad-ett{
+    margin-top: 5%;
+}
+.rad-ett{
+    padding-left: 7%;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+h1 .mitten{
+    margin-top: 5%;
+}
+
+.mitten{
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+h1 .rad-tva{
+    margin-top: 5%;
+}
+
+.rad-tva{
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.social{
+    right: 0;
+    background-color: darkgrey;
+}
+.instagram{
+    width: 50px;
+}
+
+.twitter{
+    top: 0;
+    right: 0;
+    width: 50px;
+    border-radius: 20%;
+    
+} /*
