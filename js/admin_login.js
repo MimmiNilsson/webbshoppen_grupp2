@@ -1,3 +1,7 @@
+
+
+
+
 /*===== ADMIN / LOGIN ===== */
 
 function validateAdmin(e) {
@@ -15,3 +19,4 @@ function validateAdmin(e) {
 document.querySelector(".login-btn").addEventListener("click", validateAdmin);
 
 /*===== ADMIN / MAIN ===== */
+
